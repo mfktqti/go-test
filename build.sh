@@ -9,4 +9,4 @@ docker stop go_gp
 docker run -d --name=go_gp --rm -p 80:80 $IMAGE
 
 # 清理
-docker rmi $IMAGE
+#docker rmi $IMAGE
